@@ -3,6 +3,9 @@
 # 拉取仓库
 git clone https://github.com/Solmonz/test.git
 
+# 创建目录（如果不存在）
+mkdir -p /var/lib/emby/plugins/configurations/
+
 # 替换 mb.lic 文件
 cp -f test/mb.lic /var/lib/emby/config/mb.lic
 
